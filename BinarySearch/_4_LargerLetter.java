@@ -2,7 +2,7 @@ package BinarySearch;
 /*
   Find the next greatest character than the target in the sorted character array, characters wrap around
  */
-public class SmallestLetter {
+public class LargerLetter {
     public static void main(String[] args) {
         char[] letters={'c','f','j'};
         System.out.println(nextGreatestLetter(letters,'g'));
