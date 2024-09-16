@@ -11,13 +11,13 @@ public class MountainArray {
                 if(arr[mid]>arr[mid-1]){
                     return mid;
                 }
-                end=mid;
+                end=mid-1;
             }
             else if(arr[mid]>arr[mid-1]){
                 if(arr[mid]>arr[mid+1]){
                     return mid;
                 }
-                start=mid;
+                start=mid+1;
             }
         }
         return -1;
