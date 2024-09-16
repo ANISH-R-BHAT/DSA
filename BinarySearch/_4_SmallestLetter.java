@@ -16,6 +16,6 @@ public class SmallestLetter {
             else
                 end=mid-1;
         }
-        return letters[start%(letters.length)];
+        return letters[start%(letters.length)]; //mod is used to return the first element when the target element is >= largest element in the array
     }
 }
