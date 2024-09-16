@@ -18,6 +18,7 @@ public class MountainArray2 {
             }
 
         }
+        //start keeps moving towards right side and end keeps moving towards left side
         //in the end start=end and pointing to the largest number because of the 2 checks above
         //start and end always try to find max element in the above 2 checks
         //hence when they are pointing to the just same/one element that is the maximum one because that is what the checks say
