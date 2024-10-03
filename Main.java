@@ -1,17 +1,16 @@
-package LinkedLists.Questions;
-
-//import static LinkedLists.Questions.LLists.mergeTwoLists;
+package Heaps;
 
 public class Main {
-    public static void main(String[] args) {
-        LLists list1=new LLists();
-        LLists list2=new LLists();
-        list1.inserLast2(1);
-        list1.inserLast2(2);
-        list1.inserLast2(4);
-        list2.inserLast2(1);
-        list2.inserLast2(3);
-        list2.inserLast2(4);
-//        LLists list=mergeTwoLists(list1,list2);
+    public static void main(String[] args) throws Exception {
+        Heap<Integer> heap=new Heap<>();
+        heap.insert(34);
+        heap.insert(45);
+        heap.insert(22);
+        heap.insert(89);
+        heap.insert(76);
+        System.out.println(heap.heapSort());
+
+
+
     }
 }
